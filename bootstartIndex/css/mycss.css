@@ -1,0 +1,206 @@
+body{
+	font-family: "microsoft yahei";
+	margin-top: 51px;
+}
+.mai-icon{
+	color: white;
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+	background: rgb(64,210,177);
+}
+.navbar-default{
+	background: #fff;
+	border: none;
+}
+
+.navbar-default .navbar-brand{
+	font-size: 30px; 
+	font-weight: bold; 
+	color: #40D2B1; 
+	height: 70px; 
+	line-height: 35px;
+}
+.navbar-toggle{
+	margin-top: 17px;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-toggle:hover{
+	border-color: #40D2B1;
+	background-color: rgb(69,210,184);
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background: #1C9982;
+}
+#home{
+	background: url(../img/home-bg.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+	width: 100%;
+	margin-top: -20px;
+}
+.lvjing{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	padding: 90px 0;
+}
+#home h1{
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+#home p{
+	font-weight: 400px;
+	line-height: 35px;
+}
+#home img{
+	margin-top: 30px;
+	display: inline-block;
+}
+/*BBS*/
+#bbs{
+	padding: 80px 0;
+	text-align: center;
+}
+#bbs a{
+	color: #212121;
+	
+}
+#bbs a:hover{
+	text-decoration: none;
+	color: red;
+}
+#bbs .col-md-4{
+	padding: 15px;
+}
+#bbs .col-md-4:hover{
+	background: #f1f1f1;
+	box-shadow: 2px 2px 4px #cccccc;
+}
+#bbs img{
+	margin: 0 auto;
+}
+#bbs h3{
+	font-weight: bold;
+}
+/*html5*/
+#html5{
+	background: #f8f8f8;
+	padding: 80px 0px;
+}
+#html5 h2{
+	font-weight: bold;
+}
+#html5 p{
+	line-height: 40px;
+}
+/*bootstrap*/
+
+#bootstrap{
+	padding: 80px 0px;
+}
+#bootstrap h2{
+	font-weight: bold;
+}
+#bootstrap p{
+	line-height: 23px;
+}
+/*cours*/
+#cours{
+	background: #f8f8f8;
+	padding: 40px 0;
+	text-align: center;
+}
+#cours .col-md-3{
+	margin-bottom: 20px;
+}
+#cours h2{
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+.carousel{
+	background: white;
+}
+.carousel:hover{
+	background: paleturquoise;
+	box-shadow: 2px 2px 4px #cccccc;
+}
+.carousel .btn{
+	background: #fff;
+	border: 1px solid #40D2B1;
+	color: #40D2B1;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding: 8px 40px;
+}
+.carousel .btn:hover{
+	
+	background: #40D2B1;
+	color: white;
+}
+#app{
+	padding: 60px 0;
+}
+#app h2{
+	font-weight: bold;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+#app p{
+	line-height: 25px;
+}
+#app .btn{
+	margin-top: 20px;
+	background: #40D2B1;
+	padding: 10px 20px;
+	margin-bottom: 20px;
+}
+#app .btn:hover{
+	background: #007AFF;
+}
+#contact{
+	background: url(../img/contact-bg.png) no-repeat;
+	background-size: cover;
+	color: white;
+}
+#contact h3{
+	font-weight: bold;
+	margin-bottom: 25px;
+	margin-top: 0;
+}
+#contact p{
+	line-height: 25px;
+	margin-bottom: 20px;
+}
+#contact .form-control{
+	border: none;
+	border-radius: 0;
+	height: 50px;
+	margin-bottom: 20px;
+}
+#contact textarea.form-control{
+	height: auto;
+}
+#contact input[type="submit"]{
+	background: #40D2B1;
+	color: white;
+}
+#contact input[type="submit"]:hover{
+	background: #007AFF;
+}
+#footer{
+	text-align: center;
+	font-weight: 500;
+	padding: 20px;
+}
