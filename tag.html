@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top headerone colorone">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle aaa" data-toggle="collapse" data-target="#sub">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						<a href="#" class="navbar-brand" style="color: white;">Maizi&nbsp;Admin</a>
+					</div>
+					<div class="collapse navbar-collapse" id="sub">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html" style="color: white;"><span class="glyphicon glyphicon-home" ></span>&nbsp;后台首页</a>
+							</li>
+							<li>
+								<a href="user_list.html" style="color: white;"><span class="glyphicon glyphicon-user"></span>&nbsp;用户管理</a>
+							</li>
+							<li>
+								<a href="content.html" style="color: white;"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;内容管理</a>
+							</li>
+							<li class="activeaa">
+								<a href="tag.html" style="color: white;"><span class="glyphicon glyphicon-tag"></span>&nbsp;标签管理</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+    admin
+    <span class="caret"></span>
+  </a>
+								<ul class="dropdown-menu" aria-labelledby="dLabel">
+									<li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+								</ul>
+							</li>
+							<li><a href="#" style="color: white;"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<section>
+					<div class="row wow rollIn">
+						<div class="page-header">
+  <h1>TAG标签管理</h1>
+</div>
+					</div>
+					<div class="row wow rollIn">
+						<form action="">
+							<div class="form-group">
+								<div class="col-md-10">
+								<input type="text" placeholder="请输入要添加的标签" class="form-control" />
+								</div>
+								<div class="col-md-2">
+								<button type="button" class="btn btn-danger form-control">添加</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="row">
+						<div class="col-md-2 abc wow rollIn">
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>bootstart</strong>
+</div>				</div>
+						<div class="col-md-2 abc wow rollIn">
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>麦子学院</strong>
+</div>				</div>
+						<div class="col-md-2 abc wow rollIn">
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>前端课程</strong>
+</div>				</div>
+						<div class="col-md-2 abc wow rollIn">
+<div class="alert alert-success alert-dismissible" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>学习前端</strong>
+</div>				</div>
+					</div>
+				</section>
+			</div>
+					<script>
+			$(function(){
+				new WOW().init();
+			})
+		</script>
+	</body>
+
+</html>

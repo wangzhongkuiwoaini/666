@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/mycss.css" />
+		<link rel="stylesheet" href="css/animate.css" />
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+		<script type="text/javascript" src="js/wow.min.js"></script>
+		<title></title>
+	</head>
+
+	<body>
+		<div class="container">
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sub">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+						<a href="#" class="navbar-brand">Maizi&nbsp;Admin</a>
+					</div>
+					<div class="collapse navbar-collapse" id="sub">
+						<ul class="nav navbar-nav">
+							<li>
+								<a href="index.html"><span class="glyphicon glyphicon-home"></span>&nbsp;后台首页</a>
+							</li>
+							<li class="">
+								<a href="user_list.html"><span class="glyphicon glyphicon-user"></span>&nbsp;用户管理</a>
+							</li>
+							<li class="active">
+								<a href="content.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;内容管理</a>
+							</li>
+							<li>
+								<a href="tag.html"><span class="glyphicon glyphicon-tag"></span>&nbsp;标签管理</a>
+							</li>
+						</ul>
+						<ul class="nav navbar-nav navbar-right">
+							<li class="dropdown">
+								<a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    admin
+    <span class="caret"></span>
+  </a>
+								<ul class="dropdown-menu" aria-labelledby="dLabel">
+									<li><a href="#"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;&nbsp;前台首页</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;个人主页</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-cog"></span>&nbsp;&nbsp;个人设置</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;&nbsp;账户中心</a></li>
+									<li><a href="#"><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;我的收藏</a></li>
+								</ul>
+							</li>
+							<li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;&nbsp;退出</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="row wow bounce">
+					<div class="col-md-2 wow bounce" data-wow-delay="1s">
+						<div class="list-group">
+							<a href="content.html" class="list-group-item active">内容列表</a>
+							<a href="add_content.html" class="list-group-item">内容添加</a>
+						</div>
+					</div>
+					<div class="col-md-10 wow bounce" data-wow-delay="2s">
+						<div class="page-header">
+							<h1>内容管理</h1>
+						</div>
+						<ul class="nav nav-tabs">
+							<li class="active"><a href="content.html">内容列表</a></li>
+							<li class=""><a href="add_content.html">添加内容</a></li>
+						</ul>
+						<table class="table table1">
+							<thead>
+								<tr>
+									<th>内容标题</th>
+									<th>作者</th>
+									<th>发布时间</th>
+									<th>操作</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教业教育，效果和效果和就就业为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教育，效果和就效果和就业为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业业教教育，效果和就业效果和就为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教育，效果和就业为效果和就王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教育，效果和就业为效果和就王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教育，效果和就业为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业教育，效果和就业为王效果和就</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Mooc职业教业效果和就教育，效果和就业为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								<tr>
+									<th scope="row">缺乏Moocoocooc职业教业教育，效果和就业为王</th>
+									<td>王中奎</td>
+									<td>2017/06/15</td>
+									<td> <div role="presentation" class="dropdown">
+    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+      操作 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a href="#">增加</a></li>
+      <li><a href="#">删除</a></li>
+      <li><a href="#">锁定</a></li>
+      <li><a href="#">修改密码</a></li>
+    </ul>
+  </div></td>
+								</tr>
+								
+							</tbody>
+						</table>
+						<nav class="nav nav-pills navbar-right nan_ye">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">上一页</span>
+      </a>
+    </li>
+    <li class="active"><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">下一页</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+					</div>
+				</div>
+			</div>
+		<script>
+			$(function(){
+				new WOW().init();
+			})
+		</script>
+	</body>
+
+</html>

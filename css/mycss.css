@@ -1,0 +1,72 @@
+body{
+	font-family: "microsoft yahei";
+	margin-top: 70px;
+}
+.progress{
+	margin-bottom: 15px;
+}
+.list-group-item{
+	padding: 9px 15px;
+}
+.adminaz{
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+}
+.well:hover{
+	background: lightgreen;
+}
+/*留言上边距*/
+.mar-t15{
+	margin-top: 15px;
+}
+.mar-t-20{
+	margin-top: 40px;
+}
+.footer{
+	text-align: center;
+	padding: 30px 0;
+}
+.page-header h1{
+	margin: 0;
+	font-size: 16px;
+}
+.page-header{
+	
+	margin-top: 0;
+}
+.table1{
+	margin-top: 10px;
+	border: 1px solid #cccccc;
+}
+.nan_ye{
+	margin-top: -20px;
+	margin-right: 10px;
+}
+.form-my{
+	padding: 10px;
+	border: 1px solid #dddddd;
+	border-top: none;
+	
+}
+.form-myh{
+	margin: 20px 0px 5px 0;
+}
+.btn_a{
+	margin-right: 30px;
+}
+.form_a{
+	color: #666;
+}
+.headerone{
+	background: #2da3e7;
+}
+.activeaa{
+	background: #178acc;
+}
+.aaa{
+	background: white;
+}
+.abc{
+	padding: 40px 10px;
+}
