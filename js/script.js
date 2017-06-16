@@ -24,7 +24,7 @@ var lineChartData = {
             pointStrokeColor : "#fff",
             pointHighlightFill : "#fff",
             pointHighlightStroke : "rgba(151,187,205,10)",
-            data : [314,455,755,814,999,905,1000]
+            data : [314,455,755,814,999,905,0]
         }
         ,{
             fillColor : "rgba(255,0,0,6)",
@@ -33,7 +33,7 @@ var lineChartData = {
             pointStrokeColor : "#fff",
             pointHighlightFill : "#fff",
             pointHighlightStroke : "rgba(151,187,205,1)",
-            data : [114,255,455,414,599,605,500]
+            data : [114,255,455,414,599,0,500]
         }
     ]
 
